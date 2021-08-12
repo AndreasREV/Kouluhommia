@@ -1,0 +1,7 @@
+C:\Users\andre\OneDrive - Jyväskylän koulutuskuntayhtymä\ohjelmoinnin perusteet\laivanupotusali\laivanupotusali\bin\Debug\laivanupotusali.exe.config
+C:\Users\andre\OneDrive - Jyväskylän koulutuskuntayhtymä\ohjelmoinnin perusteet\laivanupotusali\laivanupotusali\bin\Debug\laivanupotusali.exe
+C:\Users\andre\OneDrive - Jyväskylän koulutuskuntayhtymä\ohjelmoinnin perusteet\laivanupotusali\laivanupotusali\bin\Debug\laivanupotusali.pdb
+C:\Users\andre\OneDrive - Jyväskylän koulutuskuntayhtymä\ohjelmoinnin perusteet\laivanupotusali\laivanupotusali\obj\Debug\laivanupotusali.csprojAssemblyReference.cache
+C:\Users\andre\OneDrive - Jyväskylän koulutuskuntayhtymä\ohjelmoinnin perusteet\laivanupotusali\laivanupotusali\obj\Debug\laivanupotusali.csproj.CoreCompileInputs.cache
+C:\Users\andre\OneDrive - Jyväskylän koulutuskuntayhtymä\ohjelmoinnin perusteet\laivanupotusali\laivanupotusali\obj\Debug\laivanupotusali.exe
+C:\Users\andre\OneDrive - Jyväskylän koulutuskuntayhtymä\ohjelmoinnin perusteet\laivanupotusali\laivanupotusali\obj\Debug\laivanupotusali.pdb

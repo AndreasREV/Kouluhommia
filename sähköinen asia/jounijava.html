@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS-oneone</title> <!-- Linkin nimi-->
+</head>
+<body>
+     <h2>Ohjausrakenne - 4.</h2>
+    <script>
+
+    var suositus = prompt ("Kuinka paljon annetaan lääkkeitä?");
+    var pistos = prompt ("pistosten määrä");
+    document.write ("Suositus määrä"+suositus+"ml"+"<br>"+"<br>");
+    var overit = prompt ("Suurin annettu annos.");
+    var num1;
+    var taulukko = [];
+    var i=0;
+
+    while (i<pistos)
+    {
+         var laake = number(prompt("Lääkettä annettu"+ laake+"ml"+"<br>"));
+        i++;
+        taulukko.push(laake);
+        taulukko.sort();
+
+        if (laake<taulukko[w - 1])
+        {
+            document.write("Pienempi kuin edellinen "+"<br>");
+        }
+        if (laake<taulukko[w - 1])
+       {
+           document.write("Suurempi kuin edellinen "+"<br>");
+       }
+       if (laake<taulukko[w - 1])
+       {
+           document.write("Saman verran kuin edellinen "+"<br>");
+       }
+
+              var summ = 0;
+              for(var w = 0; w < taulukko.length; w++)
+         {
+              summ += +taulukko[w];
+         }
+         document.write("Yhteensä annettu lääkettä"+summ+"ml"+"<br>"+"<br>");
+
+         var vahenna =suositus-summ;
+         if(vahenna<0)
+         {
+              document.write("liikaa lääkettä överit, slow down"+vahenna+"ml"+"<br>");
+              break;
+          }
+    }
+
+
+
+ var suurin=Math.max.apply(Math,taulukko);
+ document.write("isoin annos "+ Suurin+"ml"+"<br>");
+ var pienin=Math.min.apply(Math,taulukko);
+ document.write("Pienin annos"+Pienin+"ml"+"<br>");
+
+var liikaa=suositus-summ;
+if(liikaa<0)
+{
+     var a = Math.abs(liikaa);
+     document.write("lääkettä annettu yli suosituksen "+a+"ml");
+}
+
+
+        </script>
+    </body>
+ </html>

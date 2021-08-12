@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>JAVAA</title>
+    </head>
+    <body>
+        <script>
+		var maksimi = prompt("Kuinka suuri on maksimiannos");
+		var kerrat = prompt("Kuinka monta kertaa lisätään");
+		var i = 0;
+		
+		var annostaulu = [];
+		while(i <kerrat)
+		{		
+			var laake = prompt("Paljon lisataan (ml)");
+			annostaulu.push(laake);	
+			annostaulu.sort();
+			i++
+			document.write(i + " ANNOS " + laake + "ml" + "<br>");
+		
+			var overdose = maksimi - laake;
+			if (overdose <=0)
+			{
+				document.write(" Yliannostus cmon man" +"<br>");
+			}				
+			var pienin = Math.min.apply(Math,annostaulu);
+			var suurin = Math.max.apply(Math,annostaulu);
+				document.write("pienin annos oli: "+ pienin +"<br>");
+				document.write("Suurin oli : " + suurin + "<br>");
+			if(i == kerrat)
+			{
+				continue;
+			}		
+		}
+        </script>
+    </body>
+</html>

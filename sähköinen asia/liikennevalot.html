@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <title>JAVAA</title>
+		<link rel="stylesheet" type="text/css" href="lightstyle.css">
+    </head>
+    <body>
+        <script>
+		var colors = ["#FF4500", "#656565", "#656565", "#FF4500", "#DAA520", "#656565", "#656565", "#656565", " #ADFF2F", "#656565", "#DAA520", "#656565", "#FF4500", "#656565", "#656565"];
+		//n muuttuja//
+		var n = 0;
+		//värijärjestys//
+		function sequence() {
+		one.style.backgroundColor = colors[n];
+		two.style.backgroundColor = colors[n + 1];
+		three.style.backgroundColor = colors[n + 2];
+
+			n += 3;
+		//estää ajastuksen ylimenon//
+			if (n == 15)
+			{
+			n = 3;
+			}
+		}
+
+		setInterval(function(){ sequence(); }, 2250);
+
+		var m = 0;
+		//värijärjestys//
+		function sequence1() {
+		one1.style.backgroundColor = colors[m];
+		two1.style.backgroundColor = colors[m + 1];
+		three1.style.backgroundColor = colors[m + 2];
+
+			m += 3;
+		//estää ajastuksen ylimenon//
+			if (m == 15)
+			{
+			m = 3;
+			}
+		}
+
+		setInterval(function(){ sequence1(); }, 4000);
+		
+		var k = 0;
+		//värijärjestys//
+		function sequence2() {
+		one2.style.backgroundColor = colors[k];
+		two2.style.backgroundColor = colors[k + 1];
+		three2.style.backgroundColor = colors[k+ 2];
+			one5.style.backgroundColor = colors[k];
+		two5.style.backgroundColor = colors[k + 1];
+		three5.style.backgroundColor = colors[k+ 2];
+
+
+			k += 3;
+		//estää ajastuksen ylimenon//
+			if (k == 15)
+			{
+			k = 3;
+			}
+		}
+
+		setInterval(function(){ sequence2(); }, 3000);
+		
+			var l = 0;
+		//värijärjestys//
+		function sequence3() {
+		one3.style.backgroundColor = colors[l];
+		two3.style.backgroundColor = colors[l + 1];
+		three3.style.backgroundColor = colors[l+ 2];
+	
+			l += 3;
+		//estää ajastuksen ylimenon//
+			if (l == 15)
+			{
+			l = 3;
+			}
+		}
+
+		setInterval(function(){ sequence3(); }, 2250);
+				var j = 0;
+		//värijärjestys//
+		function sequence4() {
+		
+	
+		one4.style.backgroundColor = colors[j];
+		two4.style.backgroundColor = colors[j + 1];
+		three4.style.backgroundColor = colors[j+ 2];
+			j += 3;
+		//estää ajastuksen ylimenon//
+			if (j == 15)
+			{
+			j = 3;
+			}
+		}
+		setInterval(function(){ sequence4(); }, 4000);
+		
+        </script>
+			<!-- <div id = "loota"> -->
+				<div id="one"></div>
+				<div id="two"></div>
+				<div id="three"></div>
+				<div id="square"></div>
+			<!-- </div> -->
+			<div id="one1"></div>
+			<div id="two1"></div>
+			<div id="three1"></div>
+			<div id="square1"></div>
+			<div id="one2"></div>
+			<div id="two2"></div>
+			<div id="three2"></div>
+			<div id="square2"></div>
+			<div id="one3"></div>
+			<div id="two3"></div>
+			<div id="three3"></div>
+			<div id="square3"></div>
+			<div id="one4"></div>
+			<div id="two4"></div>
+			<div id="three4"></div>
+			<div id="square4"></div>
+			<div id="one5"></div>
+			<div id="two5"></div>
+			<div id="three5"></div>
+			<div id="square5"></div>
+		</body>
+</html>

@@ -1,0 +1,7 @@
+C:\Users\andre\OneDrive - Jyväskylän koulutuskuntayhtymä\Pankkitili\Pankkitili\bin\Debug\Pankkitili.exe.config
+C:\Users\andre\OneDrive - Jyväskylän koulutuskuntayhtymä\Pankkitili\Pankkitili\bin\Debug\Pankkitili.exe
+C:\Users\andre\OneDrive - Jyväskylän koulutuskuntayhtymä\Pankkitili\Pankkitili\bin\Debug\Pankkitili.pdb
+C:\Users\andre\OneDrive - Jyväskylän koulutuskuntayhtymä\Pankkitili\Pankkitili\obj\Debug\Pankkitili.csprojAssemblyReference.cache
+C:\Users\andre\OneDrive - Jyväskylän koulutuskuntayhtymä\Pankkitili\Pankkitili\obj\Debug\Pankkitili.csproj.CoreCompileInputs.cache
+C:\Users\andre\OneDrive - Jyväskylän koulutuskuntayhtymä\Pankkitili\Pankkitili\obj\Debug\Pankkitili.exe
+C:\Users\andre\OneDrive - Jyväskylän koulutuskuntayhtymä\Pankkitili\Pankkitili\obj\Debug\Pankkitili.pdb

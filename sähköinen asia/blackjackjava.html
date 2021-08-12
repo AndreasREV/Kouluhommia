@@ -1,0 +1,148 @@
+<html>
+    <head>
+        <title>Java mustajaakko</title>
+			<meta charset="utf-8">
+    </head>
+    <body>
+        <script>
+		var i = 0;		
+		var korttitaulu = [];
+		var korttitaulu2 = [];
+		var korttitaulu3 = [];
+		var korttitaulu4 = [];
+		var summa;
+		var summapc;
+		
+		//var o = 0;
+		//var tulos = 0;
+		//var peli = 0;
+		var kortit,kortit2,kortit3,kortit4,kortit5,kortit6;
+		function testi1()
+		{
+			document.write("jeejee");
+		}
+		function fold(foldaus)
+		{
+			return regex.test(foldaus);
+		}		
+		function kortinnosto()
+		{	
+			//var kortti
+			kortit = Math.floor((Math.random() * 13)+2);
+			kortit2 = Math.floor((Math.random() * 13)+2)
+			korttitaulu.push(kortit,kortit2);
+			korttitaulu.sort();
+			summa = kortit +kortit2;
+			//i++
+				//var pienin = Math.min.apply(Math,korttitaulu);
+				//var suurin = Math.max.apply(Math,korttitaulu);
+				//document.write("pienin heitto oli: "+ pienin +"<br>");
+				//document.write("suurin heitto oli : " + suurin + "<br>");
+			document.getElementById("teksti").innerHTML = "korttisi ovat : " +kortit +" ja "+kortit2+ " yhteensä: "+ summa + "<br>";
+			kortit3 = Math.floor((Math.random() * 13)+2);
+			kortit4 = Math.floor((Math.random() * 13)+2);
+			summapc = kortit3 +kortit4;
+		
+			korttitaulu2.push(kortit3,kortit4);
+			korttitaulu2.sort();
+			//o++
+				document.getElementById("teksti2").innerHTML ="tietokoneen kortit ovat: "+kortit3+" ja "+kortit4+ " yhteensä: "+summapc;	
+			if(summa == 21)
+			{
+				document.getElementById("teksti").innerHTML = "voitit jesjes" + "<br>";
+			}
+			else if(summa >21)
+			{
+				document.getElementById("teksti").innerHTML = "menit yli 21 !! " + "<br>";
+			}
+			if(summapc == 21)
+			{
+				document.getElementById("teksti").innerHTML = "tietsikka voitti" + "<br>";
+			}
+			else if(summapc >21)
+			{
+				document.getElementById("teksti").innerHTML = "tietsikka meni yli" + "<br>";
+			}
+		}
+		function adding()
+		{	
+				kortit5 = Math.floor((Math.random() *13)+2);
+				korttitaulu.push(kortit5);
+				summa = 0;
+				<!-- kortit6 = Math.floor((Math.random() *13)+2);				 -->
+				<!-- summa = kortit +kortit2 +kortit5; -->
+				for (i = 0; i<korttitaulu.length; i++)
+				{
+					summa += +korttitaulu[i];
+					
+				}
+				<!-- summapc = kortit3 + kortit4 +kortit6; -->
+				document.getElementById("lisäys").innerHTML = "nostit: " +kortit5 +" yhteensä nytten: "+summa;
+				<!-- document.getElementById("pclisäys").innerHTML = "tietokone nosti: " +kortit6 + " yhteensä nytten " +summapc; -->
+			if(summa == 21)
+			{
+				document.getElementById("lisäys").innerHTML = "Voitit jepajee" + "<br>";
+			}
+			else if(summa >21)
+			{
+				document.getElementById("lisäys").innerHTML = "hävisit huolella " +summa+ "<br>";
+			}
+			
+			<!-- if(summapc == 21) -->
+			<!-- { -->
+				<!-- document.write("hävisit pelin"); -->
+			<!-- } -->
+			<!-- else if(summapc >21) -->
+			<!-- { -->
+				<!-- document.write(" tietokone meni yli!!"); -->
+			<!-- } -->
+		}
+		function stay()
+		{
+				<!-- summa = 0; -->
+				<!-- <!-- kortit6 = Math.floor((Math.random() *13)+2);				 --> -->
+				<!-- <!-- summa = kortit +kortit2 +kortit5; --> -->
+				<!-- for (i = 0; i<korttitaulu.length; i++) -->
+				<!-- { -->
+					<!-- summa += +korttitaulu[i]; -->
+					
+				<!-- } -->
+				<!-- <!-- summapc = kortit3 + kortit4 +kortit6; --> -->
+				
+				<!-- <!-- document.getElementById("pclisäys").innerHTML = "tietokone nosti: " +kortit6 + " yhteensä nytten " +summapc; --> -->
+			<!-- if(summa == 21) -->
+			<!-- { -->
+				<!-- document.getElementById("lisäys").innerHTML = "Voitit jepajee" + "<br>"; -->
+			<!-- } -->
+			<!-- else if(summa >21) -->
+			<!-- { -->
+				<!-- document.getElementById("lisäys").innerHTML = "hävisit huolella " +summa+ "<br>"; -->
+			<!-- } -->
+			if(summa>summapc)
+			{
+			document.getElementById("teksti").innerHTML = "voitit summalla: " +summa+ "<br>";
+			}
+			else if(summapc>summa)
+			{
+			document.getElementById("teksti").innerHTML = "hävisit summalla: " +summa+ "<br>";
+			}
+			
+		
+		}
+		function uusipeli()
+		{
+			location.reload();
+		}
+		document.write("BlackJack 4.5.1 OPEN BETA BUILD 111411");
+		document.write("<br>");		
+        </script>
+			<button type = "button" onclick = "kortinnosto();">Aloita peli!</button>
+			<button type = "button" onclick = "adding();">Nosta lisää!</button>
+			<button type = "button" onclick = "stay();">Stay!!</button>
+			<button type = "button"  onclick = "uusipeli();">Uusi matsi!</button>
+			<p id ="teksti"></p>
+			<p id = "lisäys"></p>
+			<p id = "teksti2"></p>
+			<p id = "pclisäys"></p>			
+    </body>
+</html>

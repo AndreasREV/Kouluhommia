@@ -1,0 +1,7 @@
+C:\Users\andre\OneDrive\Työpöytä\visual studio\ohjelmoinnin perusteet\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\andre\OneDrive\Työpöytä\visual studio\ohjelmoinnin perusteet\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\andre\OneDrive\Työpöytä\visual studio\ohjelmoinnin perusteet\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\andre\OneDrive\Työpöytä\visual studio\ohjelmoinnin perusteet\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\andre\OneDrive\Työpöytä\visual studio\ohjelmoinnin perusteet\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\andre\OneDrive\Työpöytä\visual studio\ohjelmoinnin perusteet\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\andre\OneDrive\Työpöytä\visual studio\ohjelmoinnin perusteet\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache

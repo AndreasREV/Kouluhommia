@@ -1,0 +1,136 @@
+body {
+    font-family: Verdana,sans-serif;
+    font-size: 0.9em;
+	background-image:url(Tausta.jpg);
+}
+
+header {
+    padding: 10px;
+    color: red;
+	background-image:url(Logo.jpg);
+	font-family: 'Indie Flower', cursive;
+
+}
+
+section {
+	margin-top: 15px;
+	margin-bottom: 15px;
+    padding: 10px;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    margin-left: 130px;
+	border:1px solid;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size:18px;
+}
+
+article {
+    padding: 10px;
+    background-color: white;
+	border:1px solid;
+	width:auto;
+	height:auto;
+	font-family: 'Roboto Condensed', sans-serif;
+
+	
+}
+	
+
+
+nav ul {
+    padding: 0;
+    float:left;
+	position:fixed;
+	display:wrap;
+	width:100px;
+	background-color: white;
+	border: 0px #555 outset;
+	text-align:center;
+    
+}
+h3 {margin-left:0px;}
+h1 {font-size:30px; text-align:center;}
+
+nav ul li {
+    display: block;
+    margin: 0px;
+	width:100px;
+	border-radius:0px;
+	background-color:white;
+	border: 2px black groove;
+	border:2px white groove;
+	
+}
+
+footer {
+    padding: 10px;
+    color: white;
+    background-color: black;
+    position:fixed;
+	width:98%;
+	margin-top:320px;
+	text-align:center;
+}
+
+
+
+.wrap {
+	display:flex;  flex-direction:row }
+	
+	
+	@media only screen and (max-width:1300px) {.wrap
+   {
+        flex-flow:wrap; 
+    }
+	}
+
+.navigation a:hover { background-color:red;
+color:black;
+}
+.navigation a:active {
+  background-color: #4CAF50;
+  color: white;
+}
+@media all and (max-width: 1000px) {
+  .navigation {
+	flex-direction:row;
+    justify-content: space-around;
+	
+  }
+}
+
+
+@media all and (max-width: 500px) {
+  .navigation {
+
+    flex-direction: row; margin-top:30px; 
+  }
+}
+
+.icon-bar {
+  width: 100%; /* Full-width */
+  background-color: #555; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+  background-color: #000; /* Add a hover color */
+}
+
+.active {
+  background-color: #4CAF50; /* Add an active/current color */
+}
+
+
+
+.derp {width:400px; height:15%; border: 3px solid; }
+
